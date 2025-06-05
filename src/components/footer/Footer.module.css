@@ -1,0 +1,130 @@
+.footerWrapper {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 40px;
+  gap: 80px;
+  padding: right 2px; ;
+  padding: 0 20px;
+  border-bottom: 1px solid #333;  
+  justify-content: space-between
+
+}
+
+.column h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid #ff5555;
+  padding-bottom: 5px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.column ul li:hover {
+  color: #ff5555;
+}
+
+.socialLinks li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletterForm input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.newsletterForm button {
+  padding: 10px;
+  border: none;
+  background-color: #ff5555;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.newsletterForm button:hover {
+  background-color: #e24444;
+}
+
+.downloadApps {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.downloadApps p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.appButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.storeBadge {
+  width: 140px;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.storeBadge:hover {
+  transform: scale(1.05);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Bottom Panel */
+.footPanel3 {
+  background-color: #0d0d0d;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.aChar {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
