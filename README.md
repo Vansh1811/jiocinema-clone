@@ -9,7 +9,7 @@ A full UI clone of the JioCinema platform using React.js.
 - CSS3 
 
 ## ✨ Features
-- Dynamic movie content 
+- Dynamic movie content  
 - Routing with React Router
 - Reusable components
 - Responsive layout
