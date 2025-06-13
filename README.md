@@ -14,8 +14,6 @@ A full UI clone of the JioCinema platform using React.js.
 - Reusable components
 - Responsive layout 
 
-## 📸 Screenshot
-*(Add a screenshot here if you can)*
 
 ## 📍 Live Demo
 Coming soon!
