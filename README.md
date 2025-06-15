@@ -2,7 +2,7 @@
 
 A full UI clone of the JioCinema platform using React.js.
 
-## 🔧 Tech Used
+## 🔧 Tech Used 
 - React.js
 - JSX
 - React Router
